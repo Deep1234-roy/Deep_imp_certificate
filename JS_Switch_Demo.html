@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h2>Switch Demo</h2>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var day = new Date().getDay();
+            switch(day)
+            {
+                case 5:
+                    document.write("<p><b>Finally Friday!!</b></p>");
+                    break;
+                case 6:
+                    document.write("<p><b>Super Saturday!!</b></p>");
+                    break;
+                case 0:
+                    document.write("<p><b>Sleepy Sunday!!</b></p>");
+                    break;
+                default: 
+                    document.write("<p><b>Waiting for Weekend!!</b></p>");
+            }
+        </script>
+    </body>
+</html>

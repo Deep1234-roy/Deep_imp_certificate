@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+        function show_alert()
+        {
+            alert("I am an alert box!!");
+        }
+        function show_confirm(){
+            var r=confirm("Press a Button!!");
+            if(r==true)
+            {
+                alert("You Pressed OK!!");
+            }
+            else{
+                alert("you Pressed cancel!!");
+            }
+        }
+        function show_prompt()
+        {
+            var name=prompt("Enter your name....","Deep Roy");
+            if(name!=null && name!="")
+            {
+                document.write("<p>Hello " + name + " !How are you?? </p>");
+            }
+            
+        }
+    </script>
+</head>
+<body>
+    <button type="button" onclick="show_alert()">Show Alert Box</button><br><br>
+    <button type="button" onclick="show_confirm()">Show Confirm Box</button><br><br>
+    <button type="button" onclick="show_prompt()">Show Prompt Box</button><br><br>
+</body>
+</html>

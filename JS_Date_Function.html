@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            function compare()
+            {
+                var x = new Date();
+                x.setFullYear(2022,3,16);
+                var today = new Date();
+                today.setDate(today.getDate() - 120);
+                if(x>today)
+                {
+                    alert("Today is before 16th March");
+                }else{
+                    alert("Today is after 16th March");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <button type="button" onclick="compare()">Compare Date Objects</button>
+    </body>
+</html>

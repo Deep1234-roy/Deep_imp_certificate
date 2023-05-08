@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            var i=0;
+            function show_array()
+            {
+                // var mySub = new Array();
+                // mySub[0] = "CSE";
+                // mySub[1] = "ECE";
+                // mySub[2] = "EE";
+                // var mySub = new Array("Deep","Rakshit","Bhushan");
+                var mySub=["Deer","Sheep","Lion","Zebra"];
+                for(i=0; i<mySub.length;i++)
+                {
+                    document.write("<p>" + mySub[i] + "</p>");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <button type="button" onclick="show_array()">Show Array</button>
+    </body>
+</html>

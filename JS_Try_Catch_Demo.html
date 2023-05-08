@@ -1,0 +1,22 @@
+<!DOCTYPE html><html>
+    <head>
+        <script type="text/javascript">
+            var txt = "";
+            function message()
+            {
+                try{
+                    adddert("Welcome Guest!!");
+                }catch(err)
+                {
+                    txt += "There was an error in this page\n\n";
+                    txt+= "Error Description : - " + err.message + "\n\n";
+                    txt += "Click OK to Continue!!\n\n";
+                    alert(txt);
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <input type="button" value="Click Here" onclick="message()">
+    </body>
+</html>

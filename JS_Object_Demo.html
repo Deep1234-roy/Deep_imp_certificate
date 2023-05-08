@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            // person={fisrtName: "Deep",lastName: "Roy",Age: 23,Eyecolor: "Black"};
+            // person = new Object();
+            // person.fisrtName="Abhishek";
+            // person.lastName="Kolkur";
+            // person.Age=23;
+            // person.Eyecolor="Blue";
+            // document.write("<p>" + "My First name : - "+ person.fisrtName + "</p>" + "<br/>");
+            // document.write("<p>" + "My Last name : - "+ person.lastName + "</p>" + "<br/>");
+            // document.write("<p>" + "My Age : - "+ person.Age + "</p>" + "<br/>");
+            // document.write("<p>" + "My Eye Color : - "+ person.Eyecolor + "</p>" + "<br/>")
+            
+            var firstName,lastName,Age,Eyecolor;
+            function funObject(firstName,lastName,Age,Eyecolor)
+            {
+                this.firstName=firstName;
+                this.lastName=lastName;
+                this.Age=age;
+                this.Eyecolor=Eyecolor;
+            }
+
+            var myFather = new funObject("Naba","Roy",66,"black");
+            document.write("<p>" + myFather + "</p>");
+            
+        </script>
+    </head>
+    <body>
+        <!-- <script type="text/javascript">
+            document.write("<p>" + "My Father First name : - "+ funObject.firstName + "</p>" + "<br/>");
+        </script> -->
+    </body>
+</html>
